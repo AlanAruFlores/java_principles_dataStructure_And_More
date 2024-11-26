@@ -1,0 +1,29 @@
+package com.ar.queue;
+
+public class Queue<T> {
+
+	Node top = null;
+	
+	
+	class Node{
+		T data;
+		Node next;
+	}
+	
+	public void enqueue(T data) {
+		
+		if(top == null) {
+			top = new Node();
+			top.data = data;
+			return ;
+		}
+		
+		Node previous = top;
+		top = new Node();
+		top.data = data;
+		previous.next=top;
+		
+	}
+	
+	
+}

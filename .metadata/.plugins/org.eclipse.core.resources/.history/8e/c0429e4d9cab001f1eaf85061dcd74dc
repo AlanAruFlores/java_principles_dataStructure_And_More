@@ -1,0 +1,12 @@
+package com.ar.queue;
+
+public class Queue<T> {
+
+	Node top;
+	
+	
+	class Node{
+		T data;
+		Node next;
+	}
+}
