@@ -3,4 +3,10 @@
     <fullyQualifiedTypeName name="com.ar.domain.NoDRY"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.ar.domain.DRY"/>
+    <fullyQualifiedTypeName name="com.ar.linkedList.LinkedListNodes"/>
+    <fullyQualifiedTypeName name="com.ar.stack.Stack.Node"/>
+    <fullyQualifiedTypeName name="com.ar.stack.Stack"/>
+    <fullyQualifiedTypeName name="com.ar.queue.Queue"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
