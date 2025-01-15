@@ -1,5 +1,7 @@
 package com.ar.min_max_sum;
 
+import java.util.List;
+
 public class Main {
     /*
      * Complete the 'miniMaxSum' function below.
@@ -34,4 +36,42 @@ public class Main {
         System.out.print(min+" "+ max);
         
     }
+    
+    
+    
+    /* Another Way:
+     * 
+     *	Long min, max;
+        
+        min = arr.stream()  
+                .map(Integer::longValue)
+                .min(Long::compareTo).get();
+        
+        max = arr.stream()
+                .map(Integer::longValue)
+                .max(Long::compareTo).get();
+                
+        
+        Long maxSum = 0L;
+        Long minSum = 0L;  
+        if(max != min){
+            maxSum =  arr.stream()
+                    .map(Integer::longValue)
+                    .filter(x-> x.longValue() != min.longValue())
+                    .reduce(0L, (a,b)->a+b);
+            
+            minSum = arr.stream()
+                    .map(Integer::longValue)
+                    .filter(x-> x.longValue() != max.longValue())
+                    .reduce(0L, (a,b)->a+b);   
+        }else{
+            minSum = maxSum = arr.stream()
+                            .map(Integer::longValue)
+                            .reduce(0L, (a,b) -> a.longValue()+b.longValue()) - max;
+        }
+        
+        System.out.println(minSum+" "+maxSum);
+        
+     * 
+     * */
 }
