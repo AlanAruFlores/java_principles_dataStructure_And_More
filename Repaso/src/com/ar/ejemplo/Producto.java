@@ -9,7 +9,13 @@ public class Producto {
 	private String descripcion;
 	private Float precio;
 	
-	public Producto() {	
+	
+	public Producto(Integer id, String titulo, String descripcion, Float precio) {
+		///....
+	}
+	
+	
+	public Producto() {	 // Constructor
 	}
 
 	public Integer getId() {

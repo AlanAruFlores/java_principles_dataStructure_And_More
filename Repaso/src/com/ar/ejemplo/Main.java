@@ -142,8 +142,24 @@ public class Main {
 		 * Constructor  --> is a special method to initialize objects. The default constructor
 		 * 	has empty parameters
 		 
+		 
+		 	Interface --> An interface in Java is a collection of static final variables
+		 	 and abstract methods that define the contract or agreement for a set of linked classes
+		 
 		 * */
+	
+		 /*
+		  * What is a DBMS(Sistema gestor de base de datos)? 
+		  * 
+		  * DBMS stands for Database Management System, is a set of applications or programs that enable 
+		  * users to create and maintain a database. DBMS provides a tool or an interface for performing 
+		  * various operations such as inserting, deleting, updating, etc. into a database. It is software
+		  *  that enables the storage of data more compactly and securely as compared to a file-based system
+		  * */
+	
 	}
+	
+	
 	
 	public static void fInputExample() {
 		
