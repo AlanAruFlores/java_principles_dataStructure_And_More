@@ -54,6 +54,16 @@ public class Main {
 		    Wrapper classes are final and immutable
 		    Provides methods like valueOf(), parseInt(), etc.
 		    It provides the feature of autoboxing and unboxing
+		    
+		    
+		    	- Autoboxing: Autoboxing is the automatic conversion that the Java compiler makes 
+		    	between the primitive types and their corresponding object wrapper classes
+		    	- Unboxing: Converting an object of a wrapper type (Integer) to its
+		    	 corresponding primitive (int) value.
+		    	 
+		    	 
+		  
+		    
 		 * */
 		
 		
@@ -146,6 +156,9 @@ public class Main {
 		 	Interface --> An interface in Java is a collection of static final variables
 		 	 and abstract methods that define the contract or agreement for a set of linked classes
 		 
+		 - Upcasting refers to typecasting a child object to a parent object. 
+		 
+		 - Downcasting provides casting a parent object to a child objec
 		 * */
 	
 		 /*
