@@ -43,7 +43,8 @@ public class Main {
 	                JSONObject jsonResponse = new JSONObject(response.toString());
 	                	String prop1 = jsonResponse.getString("propertieOne")
 	                *
-	                *
+	                *         // Acceder al array "items"
+                JSONArray itemsArray = jsonResponse.getJSONArray("items");
 	                */
 	                // Imprimir la respuesta de la API
 	                System.out.println("Respuesta de la API: " + response.toString());
