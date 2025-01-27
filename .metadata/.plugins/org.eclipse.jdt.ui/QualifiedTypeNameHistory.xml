@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
@@ -25,4 +24,19 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="com.ar.socket.client.Client"/>
+    <fullyQualifiedTypeName name="open_closed_principle.Usuario"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="open_closed_principle.Rol"/>
+    <fullyQualifiedTypeName name="open_closed_principle.Permiso"/>
+    <fullyQualifiedTypeName name="liskov_principle.ILegible"/>
+    <fullyQualifiedTypeName name="liskov_principle.IEscribible"/>
+    <fullyQualifiedTypeName name="liskov_principle.Archivo"/>
+    <fullyQualifiedTypeName name="liskov_principle.ArchivoBase"/>
+    <fullyQualifiedTypeName name="liskov_principle.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="inversion_dependendency_principle.UsuarioRepository"/>
+    <fullyQualifiedTypeName name="inversion_dependendency_principle.MySQLDatabase"/>
+    <fullyQualifiedTypeName name="inversion_dependendency_principle.PostgresSQL"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+    <fullyQualifiedTypeName name="inversion_dependendency_principle.Database"/>
 </qualifiedTypeNameHistroy>
