@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="com.ar.socket.client.Client"/>
-    <fullyQualifiedTypeName name="open_closed_principle.Usuario"/>
-    <fullyQualifiedTypeName name="open_closed_principle.Rol"/>
-    <fullyQualifiedTypeName name="open_closed_principle.Permiso"/>
-    <fullyQualifiedTypeName name="liskov_principle.ILegible"/>
     <fullyQualifiedTypeName name="liskov_principle.IEscribible"/>
     <fullyQualifiedTypeName name="liskov_principle.Archivo"/>
     <fullyQualifiedTypeName name="liskov_principle.ArchivoBase"/>
@@ -55,9 +49,15 @@
     <fullyQualifiedTypeName name="com.ar.bridge.ControlRemoto"/>
     <fullyQualifiedTypeName name="com.ar.bridge.AvanzadoControlRemoto"/>
     <fullyQualifiedTypeName name="com.ar.bridge.Televisor"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.ar.composite.CompositeHoja"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.ar.composite.Component"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.ar.flyweight.ArbolTipo"/>
+    <fullyQualifiedTypeName name="com.ar.flyweight.ArbolFactory"/>
+    <fullyQualifiedTypeName name="com.ar.flyweight.Bosque"/>
+    <fullyQualifiedTypeName name="com.ar.flyweight.Arbol"/>
 </qualifiedTypeNameHistroy>
