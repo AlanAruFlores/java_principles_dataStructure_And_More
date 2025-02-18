@@ -45,4 +45,12 @@ public class Main {
         }    
         return largestRectangleResult;
     }
+    
+    public static long getStackSum(Stack<Integer> stack){
+        long result  = 0l;    
+        while(stack.size() > 0){
+            result += stack.pop();
+        }
+        return result;
+    }
 }
