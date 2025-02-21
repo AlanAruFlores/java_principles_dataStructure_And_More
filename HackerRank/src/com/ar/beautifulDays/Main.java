@@ -1,5 +1,6 @@
 package com.ar.beautifulDays;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 public class Main {
 	 /*
@@ -18,6 +19,8 @@ public class Main {
             
             Collections.reverse(reverseStringList);
             
+            
+            //Java 8
             String reverseString = Stream.of(reverseStringList).collect(Collectors.joining(""));
             
             int value = Integer.parseInt(reverseString);
