@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inversion_dependendency_principle.UsuarioRepository"/>
-    <fullyQualifiedTypeName name="inversion_dependendency_principle.MySQLDatabase"/>
-    <fullyQualifiedTypeName name="inversion_dependendency_principle.PostgresSQL"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
     <fullyQualifiedTypeName name="inversion_dependendency_principle.Database"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
@@ -31,7 +28,6 @@
     <fullyQualifiedTypeName name="com.ar.abstract_factory.ModernoFactory"/>
     <fullyQualifiedTypeName name="com.ar.adapter.CirculoAgujero"/>
     <fullyQualifiedTypeName name="com.ar.adapter.CirculoPieza"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.ar.adapter.CuadradoPieza"/>
     <fullyQualifiedTypeName name="com.ar.adapter.CuadradoPiezaAdapter"/>
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.ar.proxy.YoutubeCacheProxy"/>
     <fullyQualifiedTypeName name="com.ar.proxy.ThirdPartyYoutubLibImpl"/>
     <fullyQualifiedTypeName name="com.ar.proxy.YoutubeDownloader"/>
+    <fullyQualifiedTypeName name="com.ar.singleton.ClassSingleton"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
